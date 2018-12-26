@@ -1,0 +1,68 @@
+#work
+	background: url(../img/work-bg.png) no-repeat
+	background-size: cover
+
+	.nav-item_active
+		background: rgba(255, 255, 256, .3)
+
+.portfolio
+	display: flex
+	justify-content: space-between
+	align-items: center
+	border-top: 1px rgba(255, 255, 255, .3) solid
+	border-bottom: 1px rgba(255, 255, 255, .3) solid
+	margin-top: 60px
+
+.portfolio_items
+	display: flex
+
+.portfolio_items a
+	position: relative
+	text-decoration: none
+	color: #fff
+	margin-left: 55px
+	line-height: 50px
+	right: 30px
+
+.active:hover
+	display: inline-block
+	border: 1px rgb(245, 193, 73) solid
+	border-radius: 4px
+	background: rgb(245, 193, 73)
+	height: 50px
+	text-align: center
+
+.work__blocks
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	align-content: space-between
+	text-align: center
+	padding-top: 45px
+	padding-bottom: 125px
+	height: 520px
+
+.work__block-item
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	background: #000
+	border-radius: 5px
+	
+	
+	.plus
+		position: relative
+		top: -165px
+		opacity: 0
+
+	p
+		color: grey
+		text-transform: uppercase
+		margin-top: -90px
+
+	&:hover
+		opacity: .6
+		
+		.plus
+			opacity: 1

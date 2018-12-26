@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	<section id="contact">
+		<div class="container contact">
+			<div class="menu">
+				<a href="#"><img src="img/logo.png" alt="Logo"></a>
+				<nav>
+					<a href="index.html" class="nav-item">Home</a>
+					<a href="service.html" class="nav-item">Services</a>
+					<a href="about.html" class="nav-item">About</a>
+					<a href="work.html" class="nav-item">Work</a>
+					<a href="#" class="nav-item nav-item_active">Contacts</a>
+				</nav>
+			</div>
+		
+			<div class="general-block">
+				<div class="heading">
+					<h3>OUR SERVICES</h3>
+					<p><span>Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere quis.</span></p>
+				</div>
+			
+				<div class="contact__blocks">
+					<div class="adress">
+						<div>
+							<h5>Address</h5>
+							<h4><span>Acrostia</span></h4>
+							<p>Sevenoaks Rd<br> Sevenoaks TN14 7HR, UK</p>
+						</div>
+						<div class="infor">
+							<div class="info">
+								<p><span>Phone:</span></p>
+								<p><span>Fax:</span></p>
+								<p><span>E-mail:</span></p>
+								<p><span>Skype:</span></p>
+							</div>
+							<div class="number">
+								<p>+44 555 555 555</p>
+								<p>+44 556  555 555</p>
+								<p>info@acrostia.com</p>
+								<p>Ac0stia</p>
+							</div>
+						</div>
+					</div>
+					<div id="map"></div>
+					<div class="ask">
+						<h5>Ask a question</h5>
+						<form action="get">
+							<div>
+								<input type="text" placeholder="Name">
+								<input type="email" placeholder="Email">
+							</div>
+							<textarea name="question" placeholder="Your question"></textarea>
+						</form>					
+					</div>
+				</div>
+			<div><button class="send">SEND</button></div>
+		</div>
+	</div>
+		<div class="social-icons">
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a>
+			<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+		</div>
+	</section>
+
+	<script>
+		function initMap() {
+ 			var uluru = {lat: 34.0934451, lng: 118.3335234};
+ 			var map = new google.maps.Map(
+      		document.getElementById('map'), {zoom: 10, center: uluru});
+			var marker = new google.maps.Marker({position: uluru, map: map});
+		}
+   	</script>
+   
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbJB_q2oYZuVQWliiEk1sdNkyv44l1Okc&callback=initMap">
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 18:31:19 GMT+0200 (Финляндия (зима))] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
+[Tue Dec 25 2018 17:38:41 GMT+0200 (Финляндия (зима))] Layer "g+": Expected end of input but "+" found.
