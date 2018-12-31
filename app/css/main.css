@@ -96,7 +96,7 @@ h2 {
     .about__block-item p:hover {
       color: #ff8973; }
   .about__block-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.06);
     background: rgba(98, 81, 96, 0.3);
     box-shadow: 0 0 15px rgba(142, 133, 166, 0.5); }
     .about__block-item:hover img {
@@ -105,14 +105,18 @@ h2 {
       color: #ff8973; }
     .about__block-item:hover h5 {
       opacity: .9; }
-    .about__block-item:hover .fa-facebook-f {
-      background: #4f689e; }
-    .about__block-item:hover .fa-twitter {
-      background: #74c7d5; }
-    .about__block-item:hover .fa-google-plus-g {
-      background: #df5c64; }
-    .about__block-item:hover .fa-linkedin-in {
-      background: #3e61af; }
+
+.fa-facebook-f:hover {
+  background: #4f689e; }
+
+.fa-twitter:hover {
+  background: #74c7d5; }
+
+.fa-google-plus-g:hover {
+  background: #df5c64; }
+
+.fa-linkedin-in:hover {
+  background: #3e61af; }
 
 .socials .fab {
   width: 30px;
@@ -334,7 +338,8 @@ body {
   align-items: center;
   height: 100px; }
   .menu img {
-    height: 50px; }
+    height: 35px;
+    width: 150px; }
 
 nav {
   width: 50%;
@@ -397,4 +402,4 @@ p {
   height: 400px;
   padding: 15px; }
   .block-item:hover {
-    transform: scale(1.2); }
+    transform: scale(1.06); }
